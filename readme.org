@@ -1,0 +1,4 @@
+* Optics form a category, graphically
+This is a short note that slightly extends the graphical calculus Mitchell Riley ([[https://arxiv.org/abs/1809.00738][Categories of Optics]], 2018) introduced for monoidal optics to the general case of arbitrary optics.  This graphical calculus is then used to prove that optics for a strong monoidal action form a category.  Compare these simple proofs with unintuitive formal derivations of this same author (Román, Profunctor optics and traversals).
+
+/Issues are open for typos, corrections or discussion!/
