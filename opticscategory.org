@@ -15,14 +15,10 @@ This is a short note that slightly extends the graphical calculus Mitchell Riley
 #+end_abstract
 
 * Optics
-In functional programming, *optics* are a compositional representation
-of bidirectional data accessors, provided by libraries such as
-cite:kmett15.  Optics are divided into various /families/; each one of them
-encapsulating some data accessing pattern.  For instance, /lenses/
-access subfields, /prisms/ pattern match, and /traversals/ iterate over containers.
+In functional programming, *optics* are a compositional representation of bidirectional data accessors, provided by libraries such as cite:kmett15.  Optics are divided into various /families/; each one of them encapsulating some data accessing pattern.  For instance, /lenses/ access subfields, /prisms/ pattern match, and /traversals/ iterate over containers.
 
 #+begin_definition
-Let $\oslash \colon \M \times \C \to \C$ be a strong monoidal functor and let $A,B,S,T \in \C$.  An *optic* from $(A,B)$ to $(S,T)$
+Let $\oslash \colon \M \times \C \to \C$ be a strong monoidal action and let $A,B,S,T \in \C$.  An *optic* from $(A,B)$ to $(S,T)$
 is an element of the set
 \[ \Optic_{\oslash}\left((S,T), (A,B)\right) \coloneqq
 \int^{M \in \M} \C(S, M \oslash A) \times \C(M \oslash B, T).
